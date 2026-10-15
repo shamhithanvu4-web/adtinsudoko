@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "jsx": "preserve" },
+  "include": ["src/domain", "src/solver", "src/explain", "src/features/play/gameSession.ts", "src/types.d.ts", "tests/unit", "scripts/generate-puzzles.ts"]
+}
